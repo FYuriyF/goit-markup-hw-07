@@ -24,6 +24,8 @@
       rel="stylesheet"
     />
 
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -36,7 +38,9 @@
         <nav>
           <ul class="site-nav">
             <li class="site-nav__item">
-              <a href="./index.html" class="site-nav__link site-nav__link--current"
+              <a
+                href="./index.html"
+                class="site-nav__link site-nav__link--current"
                 >Студія</a
               >
             </li>
@@ -82,7 +86,7 @@
         </div>
       </section>
       <!-- Переваги -->
-      <section class="section">
+      <section class="benefits">
         <div class="container">
           <h2 class="hidden">Переваги</h2>
           <ul class="benefits__list">
@@ -137,8 +141,8 @@
         </div>
       </section>
       <!-- Наші можливості -->
-      <section class="capabilities section">
-        <div class="capabilities__container container">
+      <section class="capabilities">
+        <div class="capabilities__container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="capabilities__list">
             <li class="capabilities__item">
@@ -184,8 +188,8 @@
         </div>
       </section>
       <!-- Наша команда -->
-      <section class="team section">
-        <div class="team__container container">
+      <section class="team">
+        <div class="team__container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team__list">
             <li class="team__cards">
@@ -428,7 +432,7 @@
         </div>
       </section>
       <!-- Постійні клієнти -->
-      <section class="section">
+      <section class="clients">
         <div class="clients__container">
           <h2 class="section-title">Постійні клієнти</h2>
           <ul class="clients__list">
@@ -525,12 +529,16 @@
                 >
               </li>
               <li class="footer-communication__item">
-                <a href="mailto:info@devstudio.com" class="footer-communication__contacts"
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="footer-communication__contacts"
                   >info@devstudio.com</a
                 >
               </li>
               <li class="footer-communication__item">
-                <a href="tel:+380961111111" class="footer-communication__contacts"
+                <a
+                  href="tel:+380961111111"
+                  class="footer-communication__contacts"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -668,17 +676,22 @@
             ></textarea>
           </div>
           <div class="modal-form__agreement" role="group">
-            <input
-              class="modal-form__checkbox hidden"
-              type="checkbox"
-              name="user_agreement"
-              id="user_agreement"
-            />
-            <svg class="modal-form__agreement-icon" width="16" height="15">
-              <use class="modal-form__uncheck" href="./images/icons.svg#icon-uncheck"></use>
-              <use class="modal-form__check" href="./images/icons.svg#icon-check"></use>
-            </svg>
-            <label class="modal-form__agreement-desc" for="user_agreement"
+            <label class="modal-form__agreement-desc" for="user_agreement">
+              <input
+                class="modal-form__checkbox hidden"
+                type="checkbox"
+                name="user_agreement"
+                id="user_agreement"
+              />
+              <svg class="modal-form__agreement-icon" width="16" height="15">
+                <use
+                  class="modal-form__uncheck"
+                  href="./images/icons.svg#icon-uncheck"
+                ></use>
+                <use
+                  class="modal-form__check"
+                  href="./images/icons.svg#icon-check"
+                ></use></svg
               >Погоджуюся з розсилкою та приймаю
               <a class="modal-form__agreement-link" href="">Умови договору</a>
             </label>

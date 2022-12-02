@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
@@ -6,7 +6,7 @@
   --secondary-bg-color: #f5f4fa;
   --tertiary-bg-colo: #2f303a;
   --primary-black-color: #000000;
-}
+} */
 
 /* 
 |==================================
@@ -14,7 +14,7 @@
 |==================================
 */
 
-body {
+/* body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
@@ -32,11 +32,11 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
 /* ======= Reset start =======*/
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -58,32 +58,32 @@ img {
   display: block;
   max-height: 100%;
   height: auto;
-}
+} */
 
 /* ======= Reset end =======*/
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
-.section-title {
+/* .section-title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
   color: var(--primary-text-color);
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
-.logo {
+/* .logo {
   text-decoration: none;
   font-family: "Raleway";
   font-weight: 700;
@@ -92,10 +92,10 @@ img {
 }
 .logo--accent {
   color: var(--accent-color);
-}
+} */
 /* ----------Header сайту---------*/
 
-.header {
+/* .header {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 .header__container {
@@ -108,11 +108,11 @@ img {
 }
 .header__logo--accent {
   color: var(--accent-color);
-}
+} */
 
 /* ----------Навігація сайту---------*/
 
-.site-nav {
+/* .site-nav {
   display: flex;
   align-items: center;
 }
@@ -159,9 +159,9 @@ img {
 }
 .site-nav__item:last-child {
   margin-right: 0;
-}
+} */
 /* ---------------Контакти ---------------*/
-.header-contacts {
+/* .header-contacts {
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -193,10 +193,10 @@ img {
 }
 .header-contacts__item:last-child {
   margin-left: 0;
-}
+} */
 
 /* ---------------Герой ---------------*/
-.hero {
+/* .hero {
   margin: 0 auto;
   max-width: 1600px;
   padding-top: 200px;
@@ -227,10 +227,10 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-}
+} */
 
 /*--------------- Benefits--------------- */
-.benefits__list {
+/* .benefits__list {
   display: flex;
 }
 
@@ -261,10 +261,10 @@ img {
   margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
-}
+} */
 
 /*------------- Сapabilities -------------*/
-.capabilities {
+/* .capabilities {
   padding-top: 0;
 }
 .capabilities__container {
@@ -300,11 +300,11 @@ img {
   line-height: calc(16 / 14);
   text-transform: uppercase;
   color: var(--secondary-bg-color);
-}
+} */
 
 /*--------------- Our team ---------------*/
 
-.team {
+/* .team {
   background-color: var(--secondary-bg-color);
 }
 .team__container {
@@ -373,10 +373,10 @@ img {
 }
 .team-socials__icon {
   fill: currentColor;
-}
+} */
 /*----------- Постійні клієнти -----------*/
 
-.clients__container {
+/* .clients__container {
   display: flex;
   flex-direction: column;
 }
@@ -410,10 +410,10 @@ img {
 }
 .clients__icon {
   fill: currentColor;
-}
+} */
 /*--------------- Підвал ---------------*/
 
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--tertiary-bg-colo);
@@ -467,11 +467,11 @@ img {
   line-height: calc(16 / 14);
   color: var(--primary-white-color);
   text-transform: uppercase;
-}
+} */
 
 /*------Підвал Subscribe Form------*/
 
-.subscribe-form {
+/* .subscribe-form {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -501,10 +501,10 @@ img {
 .subscribe-form__icon {
   align-items: center;
   margin-left: 10px;
-}
+} */
 /*--------------- Підвал соціальні мережі ---------------*/
 
-.footer-socials__container {
+/* .footer-socials__container {
   display: flex;
   flex-direction: column;
   margin-right: 93px;
@@ -541,11 +541,11 @@ img {
 }
 .footer-socials__icon {
   fill: currentColor;
-}
+} */
 
 /* ---------------ButtonS--------------- */
 
-.button {
+/* .button {
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
@@ -598,16 +598,16 @@ img {
 .button__modal {
   display: block;
   margin: 0 auto;
-}
+} */
 /*--------------- Портфоліо--------------- */
 
-.button__list {
+/* .projects-button__list {
   display: flex;
   justify-content: center;
   padding-top: 0px;
   margin-bottom: 50px;
 }
-.button__item {
+.projects-button__item {
   margin-right: 8px;
 }
 .projects__list {
@@ -685,11 +685,11 @@ img {
 .projects__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
 /* ---------Modal window--------- */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   right: 0;
@@ -800,7 +800,8 @@ img {
 
   transition: fill 250ms linear;
 }
-.modal-form__field:focus + .modal-form__icon {
+.modal-form__field:focus + 
+.modal-form__icon {
   fill: var(--accent-color);
 }
 .modal-form__message {
@@ -834,6 +835,8 @@ img {
   margin-bottom: 30px;
 }
 .modal-form__agreement-desc {
+  display: flex;
+  align-items: center;
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -843,7 +846,8 @@ img {
 }
 .modal-form__agreement-link {
   color: var(--accent-color);
-}
+  text-decoration: underline;
+} */
 /* .modal-form-checkbox {
   appearance: none;
   width: 16px;
@@ -873,14 +877,19 @@ img {
   outline: none;
   border: 0;
 } */
-.modal-form__uncheck {
+/* .modal-form__uncheck {
   opacity: 1;
 
   transition-property: opacity;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form__checkbox:checked + .modal-form__agreement-icon .modal-form__uncheck {
+.modal-form__agreement-icon{
+  margin-right: 8px;
+}
+.modal-form__checkbox:checked + 
+.modal-form__agreement-icon 
+.modal-form__uncheck {
   opacity: 0;
 }
 .modal-form__check {
@@ -894,4 +903,4 @@ img {
 .modal-form__agreement-icon 
 .modal-form__check {
   opacity: 1;
-}
+} */

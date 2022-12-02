@@ -1,0 +1,8 @@
+@mixin container($w:1200px, $pr:15px, $pl: 15px, $mr: auto, $ml: auto,) 
+{
+    width: $w;
+    padding-right: $pr;
+    padding-left: $pl;
+    margin-right: $mr;
+    margin-left: $ml;
+}
